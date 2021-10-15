@@ -1,15 +1,13 @@
-## 服务告警
-
-### consul告警服务
+## consul告警服务
 对consul健康检查失败的服务，发送企业微信告警。
 
-#### 依赖
+### 依赖
 
 - registrator [ https://github.com/lostdragon/registrator ]
 
 registrator 负责注册服务
 
-#### 环境变量
+### 环境变量
 
 - CONSUL_HOST: consul地址                           
 - CONSUL_PORT: consul端口                                 
